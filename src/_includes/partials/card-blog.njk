@@ -16,6 +16,19 @@
       {% endfor %}
     </div>
   {% endif %}
+  <span slot="image">
+  {% if item.data.image %}
+      <!-- image -->
+      {%
+        imageKeys {
+          "src": item.data.image,
+          "alt": alt or "",
+          "credit": credit,
+          "loading": "eager"
+        }
+      %}
+  {% endif %}
+  </span>
   <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
 </custom-card>
 
