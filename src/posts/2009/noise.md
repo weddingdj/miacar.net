@@ -1,14 +1,14 @@
 ---
-title: 'Could Be Intuition'
-description: "Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm"
+title: 'Noise'
+description: "Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm"
 date: 2008-01-01
-tags: ['sculpture', 'legacy', 'early work', '2008']
-image: '/assets/images/artworks/2008/6_emcee1.jpg'
-alt: 'Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm'
+tags: ['sculpture', 'legacy', 'early work', '2009']
+image: '/assets/images/artworks/2008/16_lb1.jpg'
+alt: 'Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm'
 credit: Mia Car
 ---
-Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm
-<img src="/assets/images/artworks/2008/6_emcee1.jpg" alt="Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm" sizes="auto" loading="eager" decoding="sync">
-<img src="/assets/images/artworks/2008/6_emcee2.jpg" alt="Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm" sizes="auto" loading="eager" decoding="sync">
-<img src="/assets/images/artworks/2008/6_emcee3.jpg" alt="Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm" sizes="auto" loading="eager" decoding="sync">
-<img src="/assets/images/artworks/2008/6_emcee4.jpg" alt="Mia Car, Could Be Intuition, 2008, mixed media, 90 x 150 x 130 cm" sizes="auto" loading="eager" decoding="sync">
+Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm
+<img src="/assets/images/artworks/2008/16_lb1.jpg" alt="Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm" sizes="auto" loading="eager" decoding="sync">
+<img src="/assets/images/artworks/2008/16_lb2.jpg" alt="Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm" sizes="auto" loading="eager" decoding="sync">
+<img src="/assets/images/artworks/2008/16_lb3.jpg" alt="Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm" sizes="auto" loading="eager" decoding="sync">
+<img src="/assets/images/artworks/2008/16_lb4.jpg" alt="Mia Car, Noise, 2009, mixed media, 180 x 90 x 15 cm" sizes="auto" loading="eager" decoding="sync">
