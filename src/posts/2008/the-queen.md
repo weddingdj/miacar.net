@@ -2,7 +2,7 @@
 title: 'The Queen'
 description: "Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm"
 date: 2008-01-01
-tags: ['sculpture', 'legacy', 'early work']
+tags: ['sculpture', 'legacy', 'early work', '2008']
 image: '/assets/images/artworks/2008/12_queen1.jpg'
 alt: 'Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm'
 credit: Mia Car

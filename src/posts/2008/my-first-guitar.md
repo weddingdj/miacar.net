@@ -2,7 +2,7 @@
 title: 'My First Guitar'
 description: "Mia Car, My First Guitar, 2008, mixed media, 80 x 70 x 15 cm"
 date: 2008-01-01
-tags: ['sculpture', 'legacy', 'early work']
+tags: ['sculpture', 'legacy', 'early work', '2008']
 image: '/assets/images/artworks/2008/15_g1.jpg'
 alt: 'Mia Car, My First Guitar, 2008, mixed media, 80 x 70 x 15 cm'
 credit: Mia Car

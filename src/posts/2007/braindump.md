@@ -2,7 +2,7 @@
 title: 'Braindump'
 description: "Mia Car, Braindump, 2007, mixed media, 150 x 150 x 40 cm"
 date: 2007-01-01
-tags: ['sculpture', 'legacy', 'early work']
+tags: ['sculpture', 'legacy', 'early work', '2007']
 image: '/assets/images/artworks/2007/5_braindump1.jpg'
 alt: 'Mia Car, Braindump, 2007, mixed media, 150 x 150 x 40 cm'
 credit: Mia Car
