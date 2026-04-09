@@ -8,7 +8,7 @@ alt: 'Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, softwar
 credit: Mia Car
 ---
 Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm 
-<img src="/assets/images/artworks/2008/12queen_1.jpg" alt="Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm" sizes="auto" loading="eager" decoding="sync">
+<img src="/assets/images/artworks/2008/12_queen1.jpg" alt="Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm" sizes="auto" loading="eager" decoding="sync">
 <img src="/assets/images/artworks/2008/12_queen2.jpg" alt="Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm" sizes="auto" loading="eager" decoding="sync">
 <img src="/assets/images/artworks/2008/12_queen3.jpg" alt="Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm" sizes="auto" loading="eager" decoding="sync">
 <img src="/assets/images/artworks/2008/12_queen4.jpg" alt="Mia Car, The Queen, 2008, mixed media, computer, screen, keyboard, software, 200 x 120 x 90 cm" sizes="auto" loading="eager" decoding="sync">
