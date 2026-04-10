@@ -11,8 +11,6 @@ schema: BlogPosting
       {%- if draft -%}
         <span class="button" data-small-button data-button-variant="tertiary">draft</span>
       {%- endif %}
-      <!-- date -->
-      {% set definedDate = date %} {% include "partials/date.njk" %}
       {%
         if tags.length >
         1
