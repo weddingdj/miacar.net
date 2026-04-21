@@ -5,7 +5,8 @@ schema: BlogPosting
 
 <div class="region" style="--region-space-top: var(--space-xl-2xl)">
   <div class="wrapper flow prose">
-    <h1 class="gradient-text">{{ title }}</h1>
+    <button type="button" class="button" data-ghost-button style="inline-size: fit-content; font-size: var(--size-step-min-1); padding: var(--space-3xs) var(--space-xs);" onclick="window.history.go(-1)">← Back</button>
+    <h1 class="text-step-3">{{ title }}</h1>
     <p class="meta | cluster gutter-xs-s">
       <!-- draft status -->
       {%- if draft -%}
@@ -23,6 +24,8 @@ schema: BlogPosting
     </p>
 
     {{ content | safe }}
+
+    <button type="button" class="button" data-ghost-button style="inline-size: fit-content; font-size: var(--size-step-min-1); padding: var(--space-3xs) var(--space-xs);" onclick="window.history.go(-1)">← Back</button>
     {% include 'partials/edit-on.njk' %}
   </div>
 
