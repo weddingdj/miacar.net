@@ -1,8 +1,8 @@
 export default {
   top: [
     {
-      text: 'About',
-      url: '/about/'
+      text: 'Home',
+      url: '/'
     },
     {
       text: 'Art Exhibitions',
@@ -11,6 +11,10 @@ export default {
     {
       text: 'DJ Events',
       url: '/dj-events/'
+    },
+    {
+      text: 'About',
+      url: '/about/'
     }
   ],
   bottom: [
