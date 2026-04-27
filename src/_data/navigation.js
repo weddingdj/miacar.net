@@ -5,26 +5,18 @@ export default {
       url: '/about/'
     },
     {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Art Exhibitions',
+      url: '/art-exhibitions/'
+    },
+    {
+      text: 'DJ Events',
+      url: '/dj-events/'
     }
   ],
   bottom: [
     {
-      text: 'Style guide',
-      url: '/styleguide/'
-    },
-    {
       text: 'Imprint',
       url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    },
-    {
-      text: 'Accessibility',
-      url: '/accessibility/'
     }
   ]
 };

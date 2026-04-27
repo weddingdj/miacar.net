@@ -26,7 +26,7 @@ export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light 
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
-  "Mia Car Art"; // alt text for default meta image"
+  "Mia Car Art + Music"; // alt text for default meta image"
 export const blog = {
   // RSS feed
   name: 'Mia Car Art',

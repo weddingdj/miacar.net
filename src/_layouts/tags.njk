@@ -4,7 +4,9 @@ layout: base
 
 <div class="region">
   <div class="wrapper flow">
+    <button type="button" class="button" data-ghost-button style="inline-size: fit-content; font-size: var(--size-step-min-1); padding: var(--space-3xs) var(--space-xs);" onclick="window.history.go(-1)">← Back</button>
     <h1 class="gradient-text-linear text-step-4">{{ title }}</h1>
     {{ content | safe }}
+    <button type="button" class="button" data-ghost-button style="inline-size: fit-content; font-size: var(--size-step-min-1); padding: var(--space-3xs) var(--space-xs);" onclick="window.history.go(-1)">← Back</button>
   </div>
 </div>
