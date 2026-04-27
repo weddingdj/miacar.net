@@ -198,6 +198,7 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
   }
 
   .mainnav ul {
+    --gutter: var(--space-m);
     --cluster-direction: row;
     --nav-list-position: static;
     --nav-list-padding-block: 0;

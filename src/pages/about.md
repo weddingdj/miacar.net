@@ -6,3 +6,5 @@ layout: page
 ---
 
 about
+
+artist statement
