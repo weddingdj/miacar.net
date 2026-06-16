@@ -15,3 +15,5 @@ layout: page
 <img src="/assets/images/exhibitions/2013/galerie-du-tableau/galerie_du_tableau4.png" alt="Exhibition at the Galerie du Tableau, Marseille" sizes="auto" loading="eager" decoding="sync">
 <img src="/assets/images/exhibitions/2013/galerie-du-tableau/galerie_du_tableau5.png" alt="Exhibition at the Galerie du Tableau, Marseille" sizes="auto" loading="eager" decoding="sync">
 <img src="/assets/images/exhibitions/2013/galerie-du-tableau/galerie_du_tableau6.png" alt="Exhibition at the Galerie du Tableau, Marseille" sizes="auto" loading="eager" decoding="sync">
+
+<button type="button" class="button" data-ghost-button style="inline-size: fit-content; font-size: var(--size-step-min-1); padding: var(--space-3xs) var(--space-xs);" onclick="window.history.go(-1)">← Back</button>
