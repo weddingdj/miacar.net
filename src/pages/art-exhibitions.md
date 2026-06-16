@@ -7,4 +7,4 @@ description: Art exhibition infos
 layout: page
 ---
 
-art exhibitions
+[2013 "Everything Is Connected" - Galerie du Tableau, Marseille, France](/art-exhibitions/galerie-du-tableau/)
