@@ -7,4 +7,5 @@ description: DJ event infos
 layout: page
 ---
 
-dj events
+October 2025, Dahuguette, Lamalou-les-Bains, France
+April 2026, Dahuguette, Lamalou-les-Bains, France
