@@ -107,6 +107,9 @@ export default async function (eleventyConfig) {
     // -- to root
     'src/assets/images/favicon/*': '/',
 
+    // -- standalone art websites
+    'src/assets/art/': 'art/',
+
     // -- node_modules
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`
   });

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="description" content="Something inside .me by Chris Car 2013 http://chriscar.com" />
+        <meta name="keywords" content="art web site" />
+        <meta name="copyright" content="Chris Car. All rights reserved." />
+	<title>"Something inside .me", Chris Car, 2013 (chriscar.com)</title>
+	<script type="text/javascript" src="lib/paper.js"></script>
+        <script type="text/javascript" src="lib/jquery-2.0.0.min.js"></script>
+        <style type="text/css">
+ 	  html { height:100%; }
+	  body { margin:0; background-color:#FFFFFF; overflow:hidden; height:100%; }
+	</style>
+        <script type="text/javascript">
+        function doResize() {
+          var $chris = $('#chris');
+          var left = $chris.offset().left;
+          var top = $chris.offset().top;
+          var width = $chris.width();
+          var height = $chris.height();
+          $('#left').css('width', left + 'px');
+          $('#right').css('left', (left + width) + 'px');
+          $('#right').css('width', (left + width) + 'px');
+          $('#top').css('height', top + 'px');
+          $('#bottom').css('top', (top + height) + 'px');
+          $('#bottom').css('height', ($(window).height() - top - height) + 'px');
+        }
+        window.addEventListener('orientationchange', function() {
+          doResize();
+          // correction of position of white image 
+          location.reload(); 
+        }, false);
+        $(document).ready(function() {
+          $(window).resize(doResize);
+        });
+        $(window).load(function() {
+          doResize(); 
+        });
+        </script>
+</head>
+<body>
+	<script type="text/paperscript" src="./chriscar.js" canvas="canvas"></script>
+	<canvas id="canvas" resize></canvas>
+        <img src="white.png" id="left" style="position:fixed; margin:0; top:0; bottom:0; left:0; right:0; min-height:100%;">
+        <img src="white.png" id="right" style="position:fixed; margin:0; top:0; bottom:0; left:0; right:0; min-height:100%;">
+        <img src="white.png" id="top" style="position:fixed; margin:0; top:0; left:0; right:0; width:100%;">
+        <img src="white.png" id="bottom" style="position:fixed; margin:0; left:0; right:0; width:100%;">
+        <img src="cc2_small.png" id="chris" style="position:fixed; margin:auto; top:0; bottom:0; left:0; right:0; max-height:100%; max-width:100%;">
+</body>
+</html>

@@ -8,4 +8,9 @@ alt: 'Mia Car, One Day We Will Meet Again, 2013, art website / custom software'
 credit: Mia Car
 ---
 Mia Car, One Day We Will Meet Again, 2013, art website / custom software
+
+<a href="/art/onedaywewillmeetagain/" target="_blank" rel="noopener noreferrer">View live</a>
+
+<a href="/art/onedaywewillmeetagain/" target="_blank" rel="noopener noreferrer">
 <img src="/assets/images/artworks/2013/onedaywewillmeetagain.png" alt="One Day We Will Meet Again, 2013, art website / custom software" sizes="auto" loading="eager" decoding="sync">
+</a>
