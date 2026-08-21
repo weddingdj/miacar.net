@@ -1,8 +1,9 @@
-export const url = process.env.URL || 'http://localhost:8080';
+export const url =
+  process.env.URL || process.env.CF_PAGES_URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
 export const siteName = 'Mia Car';
-export const siteDescription = 'Art by Mia Car';
+export const siteDescription = 'Mia Car Art + Music';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
