@@ -1,0 +1,7 @@
+name = "miacar-net"
+compatibility_date = "2026-08-21"
+
+# Eleventy outputs to dist (see eleventy.config.js), not the default _site
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
