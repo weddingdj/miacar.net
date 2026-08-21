@@ -45,6 +45,23 @@
         </li>
       {% endif %}
     {% endfor %}
+    {% for key, value in personal.platforms %}
+      {% if value != "" %}
+        <li>
+          <a
+            class="no-indicator button"
+            data-icon
+            data-platform="{{ key }}"
+            href="{{ value }}"
+            rel="me"
+            target="_blank"
+          >
+            <span class="visually-hidden">{{ key | capitalize }}</span>
+            {% svg 'platform/' + key %}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   </ul>
 </nav>
 

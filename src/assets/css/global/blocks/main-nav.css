@@ -98,6 +98,22 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
   stroke-width: 3;
 }
 
+.mainnav a.button[data-icon] {
+  align-self: center;
+  display: inline-grid;
+  place-items: center;
+  text-decoration: none;
+}
+
+.mainnav a.button[data-icon] svg {
+  stroke-width: 2;
+}
+
+.mainnav a.button[data-icon]:not([data-platform='mixcloud']) svg {
+  block-size: 1em;
+  inline-size: 1em;
+}
+
 .mainnav [aria-expanded='true'] svg {
   transform: rotate(45deg);
 }
@@ -200,6 +216,7 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
   .mainnav ul {
     --gutter: var(--space-m);
     --cluster-direction: row;
+    --cluster-vertical-alignment: center;
     --nav-list-position: static;
     --nav-list-padding-block: 0;
     --nav-list-padding-inline: 0;
@@ -245,6 +262,7 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 
 .mainnav ul:first-child {
   --cluster-direction: row;
+  --cluster-vertical-alignment: center;
   --nav-list-position: static;
   --nav-list-padding-block: 0;
   --nav-list-padding-inline: 0;
