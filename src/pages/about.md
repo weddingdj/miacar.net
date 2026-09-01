@@ -21,7 +21,7 @@ layout: page
 <div class="layout">
 <div><strong>Sculptures / Art Installations</strong></div>
 <div>
-The inspiration for his works comes from two distinct sources: mass-produced consumer items and software development. 
+The inspiration for her works comes from two distinct sources: mass-produced consumer items and software development. 
 The mass-produced consumer items are carefully selected and assembled into patterns which - in turn - are combined to give 
 form to a sculpture, a site-specific installation or a wearable sculpture. This repetitive process refers to software 
 programming which consists of combining algorithms, functions and software patterns into software programs. When working 
@@ -32,11 +32,11 @@ colorful, plastic-based, emotionally engaging consumer products designed on a co
 These products are sold globally and define a global culture.
 
 Although Mia Car's works are composed from these products, when assembled they rather represent counter-products with 
-non-linear and almost random shapes, fragile and visually overloaded with details. This aspect in his work is referring 
+non-linear and almost random shapes, fragile and visually overloaded with details. This aspect in her work is referring 
 to the current changes in society and changes of the world view: from an industrial society to an information society. 
 From linear assembly lines at Ford to multi-tasking office jobs at Google. From a copernican model of the universe to a 
 multi-dimensional universe. These changes make life seem to be more complex and demanding than ever before. Mia Car tries 
-to express this feeling of the current era through visual complexity in his work.
+to express this feeling of the current era through visual complexity in her work.
 </div>
 </div>
 
