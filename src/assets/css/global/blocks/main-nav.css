@@ -217,7 +217,7 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
     --gutter: var(--space-m);
     --cluster-direction: row;
     --cluster-vertical-alignment: center;
-    --nav-list-position: static;
+    --nav-list-position: relative;
     --nav-list-padding-block: 0;
     --nav-list-padding-inline: 0;
     --nav-list-height: auto;
@@ -263,7 +263,7 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 .mainnav ul:first-child {
   --cluster-direction: row;
   --cluster-vertical-alignment: center;
-  --nav-list-position: static;
+  --nav-list-position: relative;
   --nav-list-padding-block: 0;
   --nav-list-padding-inline: 0;
   --nav-list-height: auto;

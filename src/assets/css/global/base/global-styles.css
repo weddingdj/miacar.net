@@ -21,6 +21,46 @@ body {
   background-color: var(--color-bg);
   accent-color: var(--color-primary);
   letter-spacing: var(--tracking);
+  isolation: isolate;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--noise-opacity);
+  background-image: var(--noise-image);
+  background-repeat: repeat;
+  background-size: 128px 128px;
+}
+
+header.wrapper {
+  background-color: var(--color-bg);
+  isolation: isolate;
+  position: relative;
+}
+
+header.wrapper::before,
+.mainnav ul::before,
+.mainnav [data-drawer-toggle]::before,
+.mainnav .nav-sublist::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--noise-opacity);
+  background-image: var(--noise-image);
+  background-repeat: repeat;
+  background-size: 128px 128px;
+}
+
+.mainnav ul,
+.mainnav [data-drawer-toggle],
+.mainnav .nav-sublist {
+  isolation: isolate;
 }
 
 main {

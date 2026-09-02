@@ -28,6 +28,9 @@
   --color-light: var(--color-gray-100);
   --color-dark: var(--color-gray-900);
   --color-mid: var(--color-gray-400);
+
+  --noise-opacity: 0.75;
+  --noise-image: url('/assets/images/template/noise.png');
 }
 
 /* Light theme */
@@ -43,6 +46,8 @@
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: var(--color-gray-200);
   --color-bg-accent-2: var(--color-gray-300);
+
+  --noise-opacity: 0.75;
 }
 
 /* Dark theme */
@@ -58,6 +63,8 @@
     --color-text-accent: var(--color-gray-300);
     --color-bg-accent: var(--color-gray-700);
     --color-bg-accent-2: var(--color-gray-600);
+
+    --noise-opacity: 0.65;
   }
 }
 :root[data-theme='dark'] {
@@ -71,4 +78,6 @@
   --color-text-accent: var(--color-gray-300);
   --color-bg-accent: var(--color-gray-700);
   --color-bg-accent-2: var(--color-gray-600);
+
+  --noise-opacity: 0.65;
 }
