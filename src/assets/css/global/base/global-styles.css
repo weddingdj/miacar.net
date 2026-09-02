@@ -57,6 +57,25 @@ header.wrapper::before,
   background-size: 128px 128px;
 }
 
+body::before,
+header.wrapper::before,
+.mainnav ul::before,
+.mainnav [data-drawer-toggle]::before,
+.mainnav .nav-sublist::before {
+  animation: noise-drift 8s linear infinite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes noise-drift {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 128px 128px;
+    }
+  }
+}
+
 .mainnav ul,
 .mainnav [data-drawer-toggle],
 .mainnav .nav-sublist {
